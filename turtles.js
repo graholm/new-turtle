@@ -20,11 +20,7 @@ function pentagon() {
 }
 
 
-function pentagon() {
-  heading = heading - 90
-  
-  
-}
+
 
 
 function goForward(distance) {   
@@ -63,5 +59,13 @@ function insertLine(start, angle, distance) {
     position: "absolute"
   })
   
+  
   turtleCage.append(lineEl)
+}
+
+function center() {
+  heading = heading - 90
+  goForward(100);
+  heading = heading + 90
+  goForward(100);
 }
