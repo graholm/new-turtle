@@ -15,8 +15,8 @@ function turnLeft() {
   heading = heading - 90  
 }
 
-function pentagon() {
-  heading = heading + 108  
+function turn() {
+  heading = heading + 360/n  
 }
 
 
