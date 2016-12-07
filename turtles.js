@@ -24,7 +24,6 @@ function turn(n) {
 
 
 function goForward(distance) {   
-  console.log ("go")
   var radians = -1 * heading * (Math.PI/180);
   var yIncrement = Math.sin(radians) * distance;
   var xIncrement = Math.cos(radians) * distance;        
