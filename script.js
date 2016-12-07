@@ -6,14 +6,14 @@ $("body").keydown(function(keydownEvent) {
       turnLeft();
       goForward(150);
   
-//      console.log ("start") 
-//      goForward(100);
-//      turnLeft();
-//      goForward(100);
-//      turnLeft();
-//      goForward(100);
-//      turnLeft();
-//      goForward(100);
+  console.log ("start") 
+  goForward(100);
+  turnLeft();
+  goForward(100);
+  turnLeft();
+  goForward(100);
+  turnLeft();
+  goForward(100);
      }
 })
 
@@ -22,7 +22,13 @@ $("body").keydown(function(keydownEvent) {
   console.log(keydownEvent.keyCode)
   if (keydownEvent.keyCode===32) {
     console.log ("start") 
-    goForward(100);
+    
+    goForward(150);
+    turnLeft();
+    goForward(150);
+    
+    pentagon();
+    goForward(50);
     turnLeft();
     goForward(100);
     turnLeft();
