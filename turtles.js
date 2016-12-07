@@ -11,6 +11,21 @@ function turnLeft() {
   heading = heading - 90  
 }
 
+function turnLeft() {
+  heading = heading - 90  
+}
+
+function pentagon() {
+  heading = heading - 36  
+}
+
+
+function pentagon() {
+  heading = heading - 90
+  
+  
+}
+
 
 function goForward(distance) {   
   console.log ("go")
