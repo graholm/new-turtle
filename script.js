@@ -23,6 +23,6 @@ function polygon (distance, n) {
     turn(n)
 }}
 
-polygon (1, 180)
+polygon (100, 5)
 
 
