@@ -16,7 +16,7 @@ function turnLeft() {
 }
 
 function turn() {
-  heading = heading + 360/n  
+  heading = heading + 360/5  
 }
 
 

@@ -18,30 +18,9 @@ $("body").keydown(function(keydownEvent) {
 })
 
 
-function(polygon (distance, n) {
+function(polygon (distance, (n) {
   for (i=0; i<n; i++){
     goForward(100)
     turn()
-}
 )
-
-$("body").keydown(function(keydownEvent) {
-  console.log(keydownEvent.keyCode)
-  if (keydownEvent.keyCode===32) {
-    console.log ("start") 
-    
-    goForward(150);
-    turnLeft();
-    goForward(150);
-    
-    pentagon();
-    goForward(50);
-    turnLeft();
-    goForward(50);
-    turnLeft();
-    goForward(50);
-    turnLeft();
-    goForward(50);
-  }
-})
 
