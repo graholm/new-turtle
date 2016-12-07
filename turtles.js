@@ -12,8 +12,10 @@ function turnLeft() {
 }
 
 function turnN() {
-  heading = heading - 45  
+  heading = heading - ("n")  
 }
+
+var n = (45)
 
 
 function goForward(distance) {   
