@@ -30,11 +30,11 @@ $("body").keydown(function(keydownEvent) {
     pentagon();
     goForward(50);
     turnLeft();
-    goForward(100);
+    goForward(50);
     turnLeft();
-    goForward(100);
+    goForward(50);
     turnLeft();
-    goForward(100);
+    goForward(50);
   }
 })
 

@@ -16,7 +16,7 @@ function turnLeft() {
 }
 
 function pentagon() {
-  heading = heading - 36  
+  heading = heading - 126  
 }
 
 
