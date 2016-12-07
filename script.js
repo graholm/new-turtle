@@ -18,9 +18,9 @@ $("body").keydown(function(keydownEvent) {
 })
 
 
-function(polygon (distance, (n) {
+function polygon (distance, n) {
   for (i=0; i<n; i++){
     goForward(100)
     turn()
-)
+}}
 
