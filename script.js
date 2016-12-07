@@ -5,6 +5,11 @@ $("body").keydown(function(keydownEvent) {
       console.log ("start") 
     goForward(100);
     turnLeft();
+      goForward(100);
+      turnLeft();
+      goForward(100);
+      turnLeft();
+      goForward(100);
      }
 })
 
