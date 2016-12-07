@@ -18,6 +18,11 @@ $("body").keydown(function(keydownEvent) {
 })
 
 
+function(polygon (distance, n) {
+  for i=0; i<n; i++
+}
+)
+
 $("body").keydown(function(keydownEvent) {
   console.log(keydownEvent.keyCode)
   if (keydownEvent.keyCode===32) {
