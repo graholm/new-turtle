@@ -11,12 +11,6 @@ function turnLeft() {
   heading = heading - 90  
 }
 
-function turnN() {
-  heading = heading - ("n")  
-}
-
-var n = (45)
-
 
 function goForward(distance) {   
   console.log ("go")
