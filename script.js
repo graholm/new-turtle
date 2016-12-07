@@ -1,7 +1,6 @@
-$("body").keydown(function(keydownEvent)
+$("body").keydown(function(keydownEvent) {
                   if (keydownEvent.keycode===13) {
-                    goForward (100)
-                    turnLeft
-                    })
+                    goForward (100);
+                    turnLeft();
+                  }     })
 
-turnLeft
