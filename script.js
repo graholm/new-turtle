@@ -1,6 +1,7 @@
 $("body").keydown(function(keydownEvent) {
-                  if (keydownEvent.keycode===13) {
-                    goForward (100);
-                    turnLeft();
-                  }     })
+  console.log ("go")
+    if (keydownEvent.keycode===13) {
+    goForward (100);
+    turnLeft();
+     }})
 
