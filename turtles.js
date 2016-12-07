@@ -62,10 +62,3 @@ function insertLine(start, angle, distance) {
   
   turtleCage.append(lineEl)
 }
-
-function center() {
-  heading = heading - 90
-  goForward(100);
-  heading = heading + 90
-  goForward(100);
-}
