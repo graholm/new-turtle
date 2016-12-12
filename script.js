@@ -4,7 +4,7 @@ $("body").keydown(function(keydownEvent) {
   }
   else if
     (keydownEvent.keyCode===37) {
-      
+      turnRight()
       goBack(100)
     }
 })
