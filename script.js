@@ -4,15 +4,6 @@
 //      goForward(150);
 //      turnLeft();
 //      goForward(150);
-//  
-//  console.log ("start") 
-//  goForward(100);
-//  turnLeft();
-//  goForward(100);
-//  turnLeft();
-//  goForward(100);
-//  turnLeft();
-//  goForward(100);
 //     }
 //})
 
