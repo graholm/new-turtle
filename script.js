@@ -1,9 +1,12 @@
 $("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode===39) {
-    turnRight()
     goForward(100)
+    
   }
-})
+  else if
+
+    })
+
 
 
 //function polygon (distance, n) {
