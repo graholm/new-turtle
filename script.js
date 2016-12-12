@@ -2,8 +2,9 @@ $("body").keydown(function(keydownEvent) {
   console.log("hey")
   console.log(keydownEvent.keyCode)
   if (keydownEvent.keyCode===39) {
+    goForward(150);
     turnRight();
-      goForward(150);
+      goForward(1000);
      }
 })
 
