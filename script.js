@@ -5,7 +5,7 @@ $("body").keydown(function(keydownEvent) {
   else if
     (keydownEvent.keyCode===37) {
       
-      goForward(-100)
+      goBack(100)
     }
 })
 
