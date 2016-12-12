@@ -1,5 +1,4 @@
 $("body").keydown(function(keydownEvent) {
-  console.log(keydownEvent.keyCode)
   if (keydownEvent.keyCode===39) {
     turnRight()
     goForward(100)
