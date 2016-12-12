@@ -1,11 +1,13 @@
 $("body").keydown(function(keydownEvent) {
   if (keydownEvent.keyCode===39) {
-    goForward(100)
-    
+    goForward(100) 
   }
   else if
+    (keydownEvent.keyCode===39) {
+      goForward(100)
+    }
+})
 
-    })
 
 
 
