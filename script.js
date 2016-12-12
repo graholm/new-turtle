@@ -5,9 +5,8 @@ $("body").keydown(function(keydownEvent) {
   else if
     (keydownEvent.keyCode===37) {
       turn()
-      goForward (100)
+      goForward (500)
       turn()
-      goForward (100)
     }
 })
 
