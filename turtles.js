@@ -6,8 +6,8 @@ var turtleCage = $(".turtle-cage")
 function turnRight() {
   heading = heading + 90  
 }
-function turnRight() {
-  heading = heading + 90  
+function turn() {
+  heading = heading + 180  
 }
 
 function turnLeft() {
