@@ -41,7 +41,7 @@ function goForward(distance) {
     left: position.x, 
     bottom: position.y,
   },{
-    duration: 20,
+    duration: 80,
     complete : function() {
       insertLine(origPosition, origHeading, distance)
     }
