@@ -1,14 +1,6 @@
-//$("body").keydown(function(keydownEvent) {
-//  if (keydownEvent.keyCode===13) {
-//  
-//      }}
-//    }
-//})
-
-
-
-
-function polygon (distance, n) {
+$("body").keydown(function(keydownEvent) {
+if (keydownEvent.keyCode===13) {
+function polygon (distance, n)
   for (i=0; i<n; i++){
     goForward(distance)
     turn(n)
